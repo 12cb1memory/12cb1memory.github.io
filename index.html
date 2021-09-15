@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12CB1</title>
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <script src="/assets/javascript/index.js"></script>
+</head>
+<body>
+  <div id="main">
+    <section class="invite">
+      <p class="icon"><i class="far fa-envelope"></i></p>
+      <h2>Bạn có phải là thành viên của 12CB1</h2>
+      <p class="info">Khai báo tên để vào 12CB1.</p>
+      <p class="member-type-name">
+        <input
+          id="name"
+          type="text"
+          placeholder="Họ và tên đầy đủ có dấu"
+          autocomplete="off"
+        />
+      </p>
+      <p class="btn">
+        <button type="button" onclick="checkName()">XÁC NHẬN</button>
+      </p>
+      <p id="false" style="color: red; margin-top: 10px; display: none;">Bạn không phải là thành viên của 12CB1, vui lòng kiểm tra lại thông tin.</p>
+    </section>
+  </div>
+</body>
+</html>
