@@ -76,53 +76,24 @@ body {
 #info-dev {
   text-align: center;
   margin-top: 180px;
-  height: 500px;
-}
-
-#info-dev .logo {
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 30px;
-  border-bottom: 1px solid gray;
-}
-
-#info-dev .dev {
-  margin-top: 10px;
-  line-height: 30px;
+  height: 270px;
+  color: gray
 }
 
 #info-dev .contact {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
-#info-dev .info-dev-sub .contact {
-  width: 50%;
-  align-items: center;
-}
-
-#info-dev .info-dev-sub .contact h2 {
-  font-weight: 550;
-  color: gray;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-
-#info-dev .info-dev-sub .contact i {
-  padding: 20px;
+#info-dev .contact i {
+  padding: 10px 20px;
   font-size: 40px;
 }
 
-#info-dev .info-dev-sub .contact i:hover {
+#info-dev .contact i:hover {
   opacity: 0.8;
 }
 
-#info-dev .info-dev-sub {
-  clear: both;
-  display: flex;
-  flex-direction: row;
-}
-
-#info-dev .info-dev-sub .main-logo {
-  margin-top: 40px;
-  width: 50%;
+#info-dev .dev {
+  margin-top: 30px;
+  font-weight: 500;
 }
