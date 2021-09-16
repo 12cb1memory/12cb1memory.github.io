@@ -1,0 +1,65 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    background-color: #f0f2f5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    box-shadow: 1px 1px 4px gray;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#container .grade {
+    width: 30%;
+    height: fit-content;
+    box-shadow: 0px 2px 4px gray;
+    margin: 0 20px;
+    background-color: white;
+}
+
+#container .grade img {
+    width: 100%;
+    height: 250px;
+}
+
+#container .grade .info {
+    padding: 0 40px;
+    margin-bottom: 10px;
+}
+
+#container .grade .watch-btn {
+    text-align: center;
+    background-color: #5ac6d0;
+    padding: 10px 0;
+}
+
+#container .grade .watch-btn a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+#container .grade .watch-btn:hover {
+    background-color: #de4a1e;
+    transition: 0.3s;
+}
